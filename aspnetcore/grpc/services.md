@@ -25,7 +25,7 @@ The following `.proto` file:
 
 * Defines a `Greeter` service.
 * The `Greeter` service defines a `SayHello` call.
-* `SayHello` sends a `HelloRequest` message and receives a `HelloReply` message
+* `SayHello` receives a `HelloRequest` message and sends a `HelloReply` message
 
 ```protobuf
 syntax = "proto3";
